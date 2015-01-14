@@ -1,1 +1,120 @@
 /* ADD YOUR STYLES HERE */
+
+.centerPad{
+	text-align: center;
+}
+
+.centerPad img {
+	display: inline-block;
+	padding: 0 15px 0 15px;
+}
+
+.centerPad2 img, p, ol {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.table-center {
+	height: 200px;
+	/*container here needs a tabl display*/
+	display: table;
+}
+
+.table-contents {
+	/*children will be treated as table cells*/
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+/*list-style-type: none;*/
+
+.horiz li {
+	display: inline;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	background: rgb(200, 100, 100);
+	border-radius: 5px;
+	border: 0px;
+}
+
+.bigBut {
+	font-size: 20px;
+	padding: 20px 40px;
+}
+
+.mediumBut {
+	font-size: 15px;
+	padding: 15px 30px;
+}
+
+.smallBut {
+	font-size: 10px;
+	padding: 10px 20px;
+}
+
+.dif_elements {
+	padding: 10px 40px;
+}
+
+/* NAVIGATION BAR */
+nav ul li {
+	display: inline-block;
+	margin: 10px 20px;
+	/*padding: 5px 0;*/
+}
+
+nav ul li a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	
+}
+
+nav ul{
+	margin:0;
+	padding: 0;
+}
+
+.pages li {
+	display: inline-block;
+
+}
+
+.pages li a,
+.currentPage span {
+	display: inline-block;
+	margin: 5px 15px;
+	border-bottom: 2px solid rgb(200, 100, 100);
+	padding: 4px 8px;
+}
+
+.pages li a {
+	text-decoration: none;
+	color: rgb(200, 100, 100);
+}
+
+.currentPage span {
+	color: rgba(100,100,100, 0.8);
+	border-bottom: 2px solid rgba(100,100,100,0.7);
+}
+
+.pages .specialPages a {
+	border-bottom: 0;
+}
+
+.comments img {
+	float: left;
+	padding-right: 10px;
+}
+.comments .commentText {
+	margin-bottom: 60px;
+}
+.commentText .commentSub {
+	left: 20%;
+}

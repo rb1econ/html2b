@@ -65,7 +65,7 @@
 /* NAVIGATION BAR */
 nav ul li {
 	display: inline-block;
-	margin: 10px 20px;
+	margin: 10px 0px;
 	/*padding: 5px 0;*/
 }
 
@@ -73,7 +73,7 @@ nav ul li a {
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	
+	padding: 10px 20px;
 }
 
 nav ul{
@@ -103,18 +103,40 @@ nav ul{
 	color: rgba(100,100,100, 0.8);
 	border-bottom: 2px solid rgba(100,100,100,0.7);
 }
-
 .pages .specialPages a {
 	border-bottom: 0;
 }
 
+
+/*COMMENT STREAM*/
 .comments img {
 	float: left;
 	padding-right: 10px;
+	/*clear: both;*/
 }
 .comments .commentText {
 	margin-bottom: 60px;
 }
-.commentText .commentSub {
-	left: 20%;
+.commentNestSub {
+	position: relative;
+	height: 200px;
+}
+.commentNestSub .commentSub {
+	position: absolute;
+	left: 100px;
+	top: 44px;
+	
+}
+
+.commentSub .sub {
+	margin-bottom: 15px;
+}
+
+.comments time{
+	color: rgba(100, 100, 100, 0.7);
+	font-size: 12px;
+}
+
+.comments p {
+	display: block;
 }

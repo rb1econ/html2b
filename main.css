@@ -140,3 +140,14 @@ nav ul{
 .comments p {
 	display: block;
 }
+
+/* TREY ANASTASIO BAND S */
+
+.entireTab {
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+
+.entireTab li {
+	display: inline-block;
+}
